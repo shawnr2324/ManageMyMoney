@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'customize-bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+body {
+    background-color: $color3;
+}
+
+a {
+    color: $color5;
+}
+
+h2 {
+    color: $color5;
+}
+
+button{
+    width: 140px;
+}
+
+.panel-heading{
+    padding-top: 1rem;
+}
+
+.panel-body{
+    padding-top: 1rem;
+}
+
+.white-text {
+    color: #ffffff !important;
+}
+
+.center-text {
+    text-align: center !important;
+}
+

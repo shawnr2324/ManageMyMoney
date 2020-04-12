@@ -1,0 +1,14 @@
+/* RGB */
+$color1: rgba(249, 201, 192, 1);
+$color2: rgba(249, 128, 107, 1);
+$color3: rgba(103, 224, 163, 1);
+$color4: rgba(224, 224, 226, 1);
+$color5: rgba(57, 62, 65, 1);
+
+//Variable Overrides
+$theme-colors: (
+  "primary": $color2,
+  "secondary": $color4
+);
+
+
