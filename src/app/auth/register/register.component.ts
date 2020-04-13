@@ -3,7 +3,7 @@ import { FormGroup, FormBuilder, Validators} from '@angular/forms';
 import { Location } from '@angular/common';
 import { Router } from '@angular/router';
 
-import { MustMatch } from '../_helpers/must-match.validator'
+import { MustMatch } from '../../_helpers/must-match.validator'
 
 @Component({
   selector: 'app-register',
@@ -38,7 +38,7 @@ export class RegisterComponent implements OnInit {
   }
 
 
-  submitForm(){
+  register(){
     //TODO Post
     this.submitted = true;
 

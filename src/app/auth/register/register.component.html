@@ -5,7 +5,7 @@
 
     <div class="panel-body">
         
-        <form [formGroup]="registerForm" (ngSubmit)="submitForm()">
+        <form [formGroup]="registerForm" (ngSubmit)="register()">
             <div class="row justify-content-center">
                 <div class="col col-md-4 pb-3">
                     <input type="text" formControlName="firstName" class="form-control center-text" id="firstName" placeholder="First Name" required>

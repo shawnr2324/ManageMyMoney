@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-import { User } from '../user/user'
+import { USERS } from '../auth/user/mock-user'
 
 @Injectable({
   providedIn: 'root'
@@ -9,4 +9,8 @@ import { User } from '../user/user'
 export class UserService {
 
   constructor(private http: HttpClient) { }
+
+  getUsers() {
+    return USERS;
+  }
 }
